@@ -16,13 +16,7 @@ logging.info("Successfully created bot! My Player ID is {}.".format(game.my_id))
 
 while True:
     game.update_frame()
-
-    # me = game.me
-    # game_map = game.game_map
-
     bot.update_game_info(game)
-
-    # command_queue = []
 
     command_queue = bot.generate_command()
     game.end_turn(command_queue)

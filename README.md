@@ -1,4 +1,15 @@
-# Starter Kit
+# CS5787 Deep Learning Final Project
+
+## TODOS
+- [ ] Build a parameterized vanilla bot
+  - [ ] Identify and implement non-parameterized functions ( Navigation,...)
+  - [ ] Feature Generation via Convolution, MLP, ...(In PyTorch)
+- [ ] Supervised Learning towards other bots
+- [ ] Reinforcement Learning
+  - [ ] Study OpenAI Gym
+
+
+Original README below:
 
 ## Halite III starter kit components
 * MyBot.{extension}, a starter bot outline
